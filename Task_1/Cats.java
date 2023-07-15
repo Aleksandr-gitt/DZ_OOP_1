@@ -20,11 +20,11 @@ public class Cats {
     public Cats(String name, int age, String OwnerName){
         this.name = name;
         this.age = age;
-        this.OwnerName = Owner.OwnerName;
+        this.OwnerName = OwnerName;
     }
 
     void Greet(){
-        System.out.println( "Мяу! Меня зовут " + name + ". Мне " + age + " года(лет). Мой владелец - " + Owner.OwnerName + ".");
+        System.out.println( "Мяу! Меня зовут " + name + ". Мне " + age + " года(лет). Мой владелец - " + OwnerName + ".");
     }
 
     public String getName() {
@@ -42,6 +42,13 @@ public class Cats {
     public void setAge(int age){
         this.age = age;
     }
+
+    public class Owner {
+
+        static String OwnerName;
+    
+    }
+    
 
 }
 
