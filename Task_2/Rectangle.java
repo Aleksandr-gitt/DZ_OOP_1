@@ -11,8 +11,8 @@ package HomeWorkOOP_1.Task_2;
  */
 public class Rectangle {
 
-    double width;
-    double height;
+    private double width;
+    private double height;
 
     public Rectangle(double width, double height){
         this.height = height;
@@ -21,9 +21,24 @@ public class Rectangle {
 
     public Rectangle(){
         width=1.5;
-        height=3.0;
+        height=2.0;
+    }
+
+    public double getHeight(){
+        return height;
+    }
+
+    public double getWight(){
+        return width;
     }
     
+    public void setHeight(double height){
+        this.height = height;
+    }
+
+    public void setWight(double width){
+        this.width = width;
+    }
 
     double calculateArea(){
         return width*height;

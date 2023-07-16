@@ -15,7 +15,7 @@ package HomeWorkOOP_1.Task_1;
 public class Cats {
     private String name;
     private int age; 
-    String OwnerName;
+    private String OwnerName;
     
     public Cats(String name, int age, String OwnerName){
         this.name = name;
@@ -46,6 +46,9 @@ public class Cats {
     public class Owner {
 
         static String OwnerName;
+
+
+        
     
     }
     
