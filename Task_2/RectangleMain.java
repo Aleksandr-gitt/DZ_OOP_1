@@ -15,7 +15,6 @@ public class RectangleMain {
         System.out.println("Площадь 1:  " + rm.calculateArea());
         System.out.println("Периметр 1:  " + rm.calculatePerimeter());
         System.out.println();
-        System.out.println();
         System.out.println("Площадь 2:  " + rm2.calculateArea());
         System.out.println("Периметр 2:  " + rm2.calculatePerimeter());
         

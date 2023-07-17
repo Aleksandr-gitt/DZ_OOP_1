@@ -19,7 +19,7 @@ public class Rectangle {
         this.width = width;
     }
 
-    public Rectangle(){
+    public Rectangle(){    //по умолчанию
         width=1.5;
         height=2.0;
     }
